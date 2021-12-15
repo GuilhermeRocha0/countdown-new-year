@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-image: url('../img/snow-mountain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    display: flex;
+    color: #000000;
+}
+
+h1 {
+    color: #000000;
+    font-size: 60px;
+    margin-top: -30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.container p{
+    font-weight: 500;
+    font-size: 60px;
+    padding: 15px;
+}
+
+.container span{
+    font-weight: normal;
+    font-size: 30px;
+    padding: 15px;
+    text-align: center;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
